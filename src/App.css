@@ -12,7 +12,7 @@ body {
   width: 36rem;
   height: 35rem;
   z-index: 1;
-  background: url(/Users/harnoorsinghaulakh/Desktop/Atom/public/Topology-2.png);
+  background: url(/Topology-2.png);
 }
 .app {
   display: flex;
