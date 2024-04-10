@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    position: absolute;
+    top: 160%;
+    padding: 5rem;
+    background: #000000;
+}
+.container img{
+    filter: grayscale(500%);
+}
+.img1{
+    aspect-ratio: 3/2;
+    width: 10rem;
+    object-fit: contain;
+}
+.img2{
+    aspect-ratio: 3/2;
+    width: 10rem;
+    object-fit: contain;
+}
+.img3{
+    aspect-ratio: 3/2;
+    width: 10rem;
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+.img4{
+    width: 10rem;
+    height: 4rem;
+    object-fit: contain;
+}
+.img5{
+    aspect-ratio: 3/2;
+    width: 10rem;
+    object-fit: contain;
+}
+.img6{
+    aspect-ratio: 3/2;
+    width: 10rem;
+    object-fit: contain;
+}

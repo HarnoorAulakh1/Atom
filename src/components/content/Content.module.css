@@ -1,0 +1,73 @@
+.lorem p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  width: 120%;
+  color: #ffffff;
+}
+.column {
+  width: 150%;
+  margin: 2rem;
+}
+.lorem img {
+  width: 4rem;
+  height: 4rem;
+}
+.find {
+  width: 10rem;
+  height: 2rem;
+  background: #d9d9d9;
+  border-radius: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.find p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #05060b;
+}
+.lorem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+.gradient {
+  display: flex;
+  justify-content: center;
+  width: 300%;
+  height: 150%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(64, 110, 155, 0.64) 0%,
+    rgba(64, 109, 154, 0) 100%
+  );
+  filter: blur(0.001rem);
+  position: relative;
+  left: 10%;
+}
+.gradient p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  width: 30rem;
+  font-size: 2rem;
+  line-height: 47px;
+  color: #ffffff;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  position: absolute;
+  width: 100%;
+  top: 120%;
+}

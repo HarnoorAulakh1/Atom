@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    gap: 2rem;
+    background: #05060b;
+    position: absolute;
+    top: 190%;
+    width: 100%;
+}
+.heading {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 47px;
+  color: #ffffff;
+}
+.para {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  width: 40rem;
+  font-size: 1.5rem;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+.find {
+  width: 12rem;
+  height: 4rem;
+  background: #ffffff;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.find p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #05060b;
+}

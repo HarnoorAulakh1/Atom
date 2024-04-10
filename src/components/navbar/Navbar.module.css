@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 64%;
+  height: 7%;
+  gap: 20%;
+  margin-top: 4%;
+  background: #e0e0e0;
+  backdrop-filter: blur(3px);
+  border-radius: 64px;
+  position: sticky;
+  top: 1rem;
+  z-index: 5;
+}
+.stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: max-content;
+  gap: 3rem;
+  margin-right: 2%;
+}
+.stack p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  width: max-content;
+  line-height: 23px;
+  color: #000000;
+}
+.menu{
+    height: max-content;
+    margin-left: 1.5rem;
+}
+.user{
+    height: max-content;
+    position: absolute;
+    right: 1.5rem;
+}

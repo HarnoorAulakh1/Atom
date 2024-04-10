@@ -1,0 +1,83 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 17%;
+  background: url(https://s3-alpha-sig.figma.com/img/dd3e/d775/3db1994c36fa3f55d4d0d7707da6002d?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xm-B5hbtFv41JjdBiN3nMCVHWPdCLNwKThoFFW2UsYyOO4ekwM2REOWMK7n63X~LHtvgrQtr7SmGupHg4UxVBIsWr-tERKz6pdITWz~pTMF3fmg~c4tI4yWbtL3Mdbl6TeFy5D81bTvuj46aYBGElXcJfdFgeoLvBI3lU3h-SFluEyGhO25KT5ctCtwCXzDCoFunciUnvgaOn2lMO5IC3uYHJDVYr2iFZ2nsZ34-eccA8n44QfhMYPj01t5Ksv3fW1Y5uD6C~pexi4gy3hf-MPdC196O2BqD-jQJmzKURwjN0TyuaFsSSeoXVwrwnN7pVuan9~nJlDLwi5kUv6Csmw__)
+    center/100% 150% no-repeat !important;
+}
+.heading {
+    z-index: 0;
+  position: absolute;
+  left: 19%;
+  top: -2%;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10rem;
+  line-height: 238px;
+  color: #ffffff;
+}
+.styling {
+  position: absolute;
+  width: 40rem;
+  height: 30rem;
+  right: 0%;
+  top: 0%;
+  background: url(/Users/harnoorsinghaulakh/Desktop/Atom/public/Topology-2.png);
+}
+.para {
+  position: absolute;
+  top: 50%;
+  width: 52%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+.button1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  width: 40%;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  line-height: 23px;
+  color: #000000;
+}
+.button2 {
+  box-sizing: border-box;
+  font-family: "Work Sans";
+  font-weight: 500;
+  width: 40%;
+  font-size: 1rem;
+  border: 1.5px solid #a8a8a8;
+  background: none;
+  border-radius: 0.5rem;
+  color: #ffffff;
+}
+.buttons {
+  position: absolute;
+  top: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 30%;
+  height: 6%;
+  margin-top: 2rem;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: -4%;
+}
