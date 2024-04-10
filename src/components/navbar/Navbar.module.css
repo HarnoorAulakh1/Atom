@@ -8,8 +8,6 @@
   background: #e0e0e0;
   backdrop-filter: blur(3px);
   border-radius: 64px;
-  position: sticky;
-  top: 1rem;
   z-index: 5;
 }
 .stack {
